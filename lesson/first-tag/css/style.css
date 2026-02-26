@@ -1,0 +1,33 @@
+
+h2, h1 {
+    color:  white;
+}
+
+h1:hover{
+    color: black;
+    cursor: pointer;
+}
+
+p {
+    color:salmon;
+
+}
+
+.color-orange {
+    color: orange;
+}
+
+.color-orange:hover{
+    color: rgb(250, 171, 25);
+}
+
+.card img {
+    width: 200px;
+    height: 200px;
+    
+}
+
+
+#title{
+    background-color:rgb(34, 114, 34);
+}
