@@ -1,6 +1,6 @@
 
 h2, h1 {
-    color:  white;
+    color:  red;
 }
 
 h1:hover{
@@ -9,16 +9,16 @@ h1:hover{
 }
 
 p {
-    color:salmon;
+    color:rgb(0, 0, 0);
 
 }
 
-.color-orange {
-    color: orange;
+.color-star {
+    color: yellow;
 }
 
-.color-orange:hover{
-    color: rgb(250, 171, 25);
+.color-star:hover{
+    color: rgb(231, 153, 6);
 }
 
 .card img {
