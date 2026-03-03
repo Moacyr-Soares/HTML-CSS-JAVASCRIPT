@@ -1,6 +1,6 @@
 
 h2, h1 {
-    color:  red;
+    color:  rgb(255, 2, 2);
 }
 
 h1:hover{
@@ -9,7 +9,8 @@ h1:hover{
 }
 
 p {
-    color:rgb(0, 0, 0);
+    color: #fff;
+
 
 }
 
