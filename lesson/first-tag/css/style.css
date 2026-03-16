@@ -1,40 +1,48 @@
-body{
-    background-color: #000000;  
-    
-}
-h2, h1 {
-    color:  rgb(255, 255, 255);
+*{
+    font-size: 20px;
 }
 
-h1:hover{
-    color: #ff0000;
+body{
+    margin: 0;
+}
+
+.cor-laranja{
+
+    color:orange;
+}
+
+.cor-laranja:hover{
+
+    color:rgba(242, 175, 5, 0.759);
     cursor: pointer;
 }
 
 
-.color-star {
-    color:  rgb(149, 152, 13)   ;
+
+h1, h2{
+    
+    color: blue;
+
+}   
+    
+h1:hover{
+
+    color: rgb(255, 17, 0);
+    cursor: pointer;    
 }
 
-.color-star:hover{
-    color:  rgb(255, 255, 0);
+p{
+ color: black;
 }
 
-.card-img {
-    width: 300px;
-    height: 400px;
-    border: 5px solid red;
+
+
+.card img{
+    width: 200px;
+    height: 300px;
+    border: 5px dotted red;
     margin: 10px 40px 20px 30px;
-    padding: 10px;    
+    padding: 20px;
+
 }
 
-
-#title{
-    background-color:rgb(0, 0, 0);
-}
-
-p {
-    color: aliceblue;
-    font-size: 30px;
-    font-family: 'Times New Roman', Times, serif;
-}
