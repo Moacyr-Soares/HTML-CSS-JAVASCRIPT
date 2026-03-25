@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    box-sizing:  border-box;
+}
+
+
+body{
+    background-color: #bbb;
+}
+
+.container-of-bricks {
+    max-width:720px;   
+    display: flex;        
+    flex-wrap: wrap;
+    margin: 0 auto;
+        
+}   
+
+.bricks {
+    width: 200px; 
+    height: 200px;  
+    margin: 20px;
+    background-color: #ffffff;
+ 
+}   
+
+.bricks:hover{
+    cursor: pointer;
+    outline: 2px solid red;
+}
