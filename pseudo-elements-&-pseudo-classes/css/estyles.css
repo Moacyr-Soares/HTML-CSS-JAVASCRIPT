@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif ;
+}
+
+.generic-section{
+    min-height: 300px;
+    padding: 40px 20px;
+}
+
+
+
+.bg-gray{
+    background-color: #ddd;
+
+}
+.generic-section h2{
+
+    font-size: 32px;
+
+}
+
+.generic-section p{
+
+      font-size: 24px;  
+
+
+}
+
+.container{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+ .form-card{
+    background-color: #fff; 
+    padding: 20px;
+    max-width: 600px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
+    border: 1px solid #4ef64e;
+
+
+
+ }
+
+ .form-card form {
+
+    display: flex;
+    flex-direction: column;
+ }
+
+ form input{    
+    border: none;       
+    background-color: #fff;
+    height: 50px;
+    margin-bottom: 20px;
+ }  
+
+ form input:focus{
+    outline: 1px solid  #4ef64e;
+ }
+
+
+
+
+  .form-card form input{
+    height: 50px; 
+    margin-bottom: 20px;
+    border: none;
+    background-color: #f0f0f0; 
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 20px; 
+  }
+
+
+   .form-card form input::placeholder{
+
+        color: #A47DAB;
+
+   }
+
+
+  .form-card form button{
+    height: 50px; 
+    border: none;
+    border-radius: 5px;
+    background-color: #A47DAB ;
+  }
+
+  .form-card form button:hover{
+    background-color: #4ef64e;
+  }
