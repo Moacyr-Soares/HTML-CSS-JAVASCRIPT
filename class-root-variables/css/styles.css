@@ -26,7 +26,7 @@ header{
     padding: 40px 20px;
 }
 
-.bg-dark{
+.bg-secondary-color{
     background-color:var(--secondary-color);
 }
 
@@ -62,15 +62,21 @@ header{
 .link-button {
 
     height: 40px;
-    padding: 20px;
+    padding: 25px;
     border-radius: 5px;
     background-color: var(--sixth-color);
     color: var(--fifth-color);
-    
+    text-align: center;
+    text-decoration: none;
 }
-
 
 footer{
     min-height: 200px;
     background-color: var(--sixth-color);
+}
+
+.buttons-container .link-button{
+
+    padding-bottom: 40px;
+
 }
