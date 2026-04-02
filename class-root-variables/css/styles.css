@@ -70,6 +70,10 @@ header{
     text-decoration: none;
 }
 
+.link-button:hover{
+    color: var(--fifth-color);
+}
+
 footer{
     min-height: 200px;
     background-color: var(--sixth-color);
